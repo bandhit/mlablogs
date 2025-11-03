@@ -1,0 +1,77 @@
+baseURL: "https://example.org/"
+languageCode: "en-US"
+title: MLablogs
+copyright: "© Bandhit Suksiri, D.Eng. in Inf. Syst."
+theme: [PaperMod]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+
+pagination:
+  disableAliases: false
+  pagerSize: 5
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  description: "MLablogs"
+  author: "Bandhit Suksiri"
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  homeInfoParams:
+    Title: "☕️ Cocoa-Driven Development Logs"
+    Content: >
+      Welcome to my little corner of the internet.
+      The MLablogs, this is where I drop random lab notes,
+      half-finished tech ideas, and sometimes personal stories that escape the debug console.
+      Think of it as a mix of experiments, thoughts, and cocoa-fueled ramblings.
+      And who am I? Great question. The answer might be hiding somewhere in my social media below.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/bandhit"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/bandhit-suksiri"
+    - name: x
+      url: "https://x.com/SuksiriBandhit"
+    - name: email
+      url: "mailto:bandhit.suksiri@ieee.org"
+
+  assets:
+    disableHLJS: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+services:
+  instagram:
+    disableInlineCSS: true
+  x:
+    disableInlineCSS: true
