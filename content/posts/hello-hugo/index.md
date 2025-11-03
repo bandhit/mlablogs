@@ -1,6 +1,6 @@
 +++
 date = '2025-11-03T17:00:00+09:00'
-draft = true
+draft = false
 title = 'Quick Tutorial: Creating Blogs and Websites with Hugo + Microsoft Azure Blob Storage Account'
 +++
 
@@ -90,6 +90,7 @@ git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/Pape
 echo 'theme = "PaperMod"' >> config.toml
 ```
 
+You can find more themes on ![here](https://themes.gohugo.io/).
 You can also change the theme later by editing `config.toml`,
 and don't forget to verify your submodules in `.gitmodules` if you need to remove or add more themes.
 
@@ -126,6 +127,10 @@ hugo server
 
 Visit `http://localhost:1313` to see your site live locally.
 
+![result1](result1.png)
+
+Very simple, isn’t it?
+
 ## Build the Site
 
 Generate static files:
@@ -141,3 +146,8 @@ Static files output to the `public` directory.
 - Create a Blob Storage container in Azure Portal and set it for static website hosting.
 - Use Azure CLI or Azure Storage Explorer to upload the contents of the `public` folder to the `$web` container.
 - Configure your storage account's static website endpoint as your site URL.
+
+## There you have it
+
+There you have it.
+Now you know it... no refunds if it stops working!

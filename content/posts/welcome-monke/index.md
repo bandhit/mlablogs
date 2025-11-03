@@ -1,7 +1,7 @@
 +++
 date = '2025-11-01T15:10:00+09:00'
-draft = true
-title = 'Welcome aboard'
+draft = false
+title = 'Welcome Aboard'
 +++
 
 ![monke](monke.jpg)
