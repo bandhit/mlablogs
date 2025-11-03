@@ -1,5 +1,5 @@
 +++
-date = '2025-11-03T17:00:00+09:00'
+date = '2025-11-02T17:00:00+09:00'
 draft = false
 title = 'Quick Tutorial: Creating Blogs and Websites with Hugo + Microsoft Azure Blob Storage Account'
 +++
